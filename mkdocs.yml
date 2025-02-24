@@ -42,20 +42,6 @@ theme:
   logo: assets/Transparent.png
   favicon: assets/favicon.png
 
-  plugins:
-  - search
-  - social:
-    cards_layout_options:
-      font_family: 'Poppins'
-      logo: 'assets/Transparent.png'
-      title: 'GSX Hub'
-      description: 'An installation / manager tool for GSX Profiles'
-  - awesome-nav
-  - git-revision-date-localized:
-    enabled: true
-    enable_creation_date: true
-    
-
   icon:
     repo: fontawesome/brands/github
 
@@ -73,6 +59,18 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+
+plugins:
+- search
+- social:
+    cards_layout_options:
+      font_family: Poppins
+      description: GSX Hub is an installation / manager tool for GSX Profiles
+
+- awesome-nav
+- git-revision-date-localized:
+    enabled: true
+    enable_creation_date: true
 
 extra:
   social:
