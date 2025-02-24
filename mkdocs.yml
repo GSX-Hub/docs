@@ -1,5 +1,5 @@
 site_name: GSX Hub
-site_url: https://gsxhub.app
+site_url: https://gsx-hub.github.io/docs
 repo_url: https://github.com/GSX-Hub/App
 repo_name: GSX-Hub/App
 
@@ -44,7 +44,12 @@ theme:
 
   plugins:
   - search
-  - social
+  - social:
+    cards_layout_options:
+      font_family: 'Poppins'
+      logo: 'assets/Transparent.png'
+      title: 'GSX Hub'
+      description: 'An installation / manager tool for GSX Profiles'
   - awesome-nav
   - git-revision-date-localized:
     enabled: true
