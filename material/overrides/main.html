@@ -3,16 +3,15 @@
 {% extends "base.html" %}
 
 {% block styles %}
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 {{ super() }}
 {% endblock %}
 
 {% block extrahead %}
     <!-- main.html | Added "navigation.instant" support -->
     <link rel="canonical" href=".">
+    <link rel="stylesheet" href="{{ 'assets/stylesheets/bootstrap.css' | url }}">
 {% endblock %}
 
 {% block scripts %}
-  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 {{ super() }}
 {% endblock %}

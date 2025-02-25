@@ -4,13 +4,13 @@ repo_url: https://github.com/GSX-Hub/App
 repo_name: GSX-Hub/App
 
 # Custom Homepage Elements
-home_cover_image: assets/GSXHub_HD5I5Zg3N4.png # This path starts at your root mkdocs directory.
+home_cover_image: assets/images/GSXHub_HD5I5Zg3N4.png # This path starts at your root mkdocs directory.
 home_tagline: GSX Hub
 home_description: |
   An installation / manager tool for GSX Profiles
 
 # Gradient Color
-home_gradient_hsla: hsla(224, 3%, 23%, 1) # Default Green: hsla(160deg,47%,55%,1)
+home_gradient_hsla: var(--md-default-bg-color) # Default Green: hsla(160deg,47%,55%,1)
 
 # Custom Homepage Button(s)
 home_button1_name: Download   # Comment this parameter out to remove the button.
@@ -23,7 +23,7 @@ home_button2_theme: md-button # Options: "md-button", "md-button md-button--prim
 
 theme:
   name: material
-  custom_dir: material
+  custom_dir: material/overrides
   features:
   - search.suggest
   - header.autohide
@@ -39,34 +39,24 @@ theme:
   font:
     text: Poppins
     code: Roboto Mono
-  logo: assets/Transparent.png
+  logo: assets/favicon.png
   favicon: assets/favicon.png
 
   icon:
     repo: fontawesome/brands/github
 
   palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      primary: black
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
-      primary: black
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
+      primary: blue grey
+      accent: blue
 
 plugins:
 - search
 - social:
     cards_layout_options:
       font_family: Poppins
-      description: GSX Hub is an installation / manager tool for GSX Profiles
-
+      logo: assets/favicon.png
 - awesome-nav
 - git-revision-date-localized:
     enabled: true

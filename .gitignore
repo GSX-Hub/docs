@@ -1,24 +1,2 @@
-.cache/plugin/social/5548d942c7071b805fbf759cbd176e86.png
-.cache/plugin/social/9095d48501b6338d23bed1842cd23091.png
-.cache/plugin/social/b1f3081415c6796bcdf514b1872475da.png
-.cache/plugin/social/cc38f4a11f1df8b7ef82df10afaf9205.png
-.cache/plugin/social/cc405e07cc917ddc2a9cd004119b5619.png
-.cache/plugin/social/f91d61a58d1dd9f3d93710150a7b3630.png
-.cache/plugin/social/fonts/Poppins/Black Italic.ttf
-.cache/plugin/social/fonts/Poppins/Black.ttf
-.cache/plugin/social/fonts/Poppins/Bold Italic.ttf
-.cache/plugin/social/fonts/Poppins/Bold.ttf
-.cache/plugin/social/fonts/Poppins/ExtraBold Italic.ttf
-.cache/plugin/social/fonts/Poppins/ExtraBold.ttf
-.cache/plugin/social/fonts/Poppins/ExtraLight Italic.ttf
-.cache/plugin/social/fonts/Poppins/ExtraLight.ttf
-.cache/plugin/social/fonts/Poppins/Italic.ttf
-.cache/plugin/social/fonts/Poppins/Light Italic.ttf
-.cache/plugin/social/fonts/Poppins/Light.ttf
-.cache/plugin/social/fonts/Poppins/Medium Italic.ttf
-.cache/plugin/social/fonts/Poppins/Medium.ttf
-.cache/plugin/social/fonts/Poppins/Regular.ttf
-.cache/plugin/social/fonts/Poppins/SemiBold Italic.ttf
-.cache/plugin/social/fonts/Poppins/SemiBold.ttf
-.cache/plugin/social/fonts/Poppins/Thin Italic.ttf
-.cache/plugin/social/fonts/Poppins/Thin.ttf
+.cache/
+.venv/

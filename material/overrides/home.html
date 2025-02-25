@@ -7,7 +7,6 @@
 <!-- Stole this styling from the "up42-py" project (link: https://sdk.up42.com/) -->
 <!-- .tx-container Original Green Gradient: hsla(160deg,47%,55%,1) -->
 <style>
-
     .md-main {
         flex-grow: 0
     }
@@ -19,12 +18,12 @@
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), {{ config.home_gradient_hsla }} 99%,#fff 99%)
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), {{ config.home_gradient_hsla }} 99%,var(--md-default-bg-color) 99%)
     }
 
     .tx-container-regular {
         padding-top: .0rem;
-        background-color: var(--md-primary-fg-color);
+        background-color: var(--md-default-bg-color);
     }
 
     .tx-hero {
@@ -45,7 +44,7 @@
     }
 
     .tx-hero__image{
-        width:40rem;
+        width: 100%;
         order:1;
         padding-right: 2.5rem;
     }
@@ -240,12 +239,7 @@
         fill: white;
     }
 
-    p {
-        font-size: 0.8rem;
-        font-weight: 300;
-        line-height: 1.5;
-        color: #fff;
-    }
+
 
     .md-typeset h4 {
         font-size: 1.2rem !important;

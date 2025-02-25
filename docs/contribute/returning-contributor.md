@@ -1,3 +1,7 @@
+---
+description: For GSX Profile Owners
+---
+
 # Returning Contributors
 ## 👋 Welcome Back
 Hopefully you've successfully uploaded a profile to the repository.

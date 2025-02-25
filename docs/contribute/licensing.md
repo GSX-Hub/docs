@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: Licensing Options for Profile Owners
 ---
 
 # Licensing

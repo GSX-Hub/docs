@@ -1,3 +1,7 @@
+---
+description: For GSX Profile Owners
+---
+
 # First Time Contributor
 ## Getting Started
 !!! tip

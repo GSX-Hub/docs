@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+description: Frequently Asked Questions
+---
+
 #FAQ
 In this section we outline **what** and **how** you can contribute towards other creator profiles.
 

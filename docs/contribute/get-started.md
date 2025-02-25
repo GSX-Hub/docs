@@ -1,3 +1,7 @@
+---
+description: Contribute to GSX Hub
+---
+
 # Get Started
 So you'd like to help GSX Hub? </br>
 Well, welcome! We are very pleased to welcome you on-board!
