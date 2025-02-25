@@ -10,6 +10,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="An installation / manager tool for GSX Profiles">
+      
       
       
         <link rel="canonical" href="https://gsx-hub.github.io/docs/">
@@ -28,7 +30,6 @@
       
     
     
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
       <link rel="stylesheet" href="assets/stylesheets/main.8608ea7d.min.css">
       
@@ -64,7 +65,7 @@
       
         <meta  property="og:title"  content="GSX Hub" >
       
-        <meta  property="og:description"  content="None" >
+        <meta  property="og:description"  content="An installation / manager tool for GSX Profiles" >
       
         <meta  property="og:image"  content="https://gsx-hub.github.io/docs/assets/images/social/index.png" >
       
@@ -80,7 +81,7 @@
       
         <meta  name="twitter:title"  content="GSX Hub" >
       
-        <meta  name="twitter:description"  content="None" >
+        <meta  name="twitter:description"  content="An installation / manager tool for GSX Profiles" >
       
         <meta  name="twitter:image"  content="https://gsx-hub.github.io/docs/assets/images/social/index.png" >
       
@@ -88,6 +89,7 @@
     
     <!-- main.html | Added "navigation.instant" support -->
     <link rel="canonical" href=".">
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.css">
 
   </head>
   
@@ -99,7 +101,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -121,7 +123,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="GSX Hub" class="md-header__button md-logo" aria-label="GSX Hub" data-md-component="logo">
       
-  <img src="assets/Transparent.png" alt="logo">
+  <img src="assets/favicon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -151,21 +153,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
-      </label>
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
     
   
 </form>
@@ -309,7 +297,6 @@
 <!-- Stole this styling from the "up42-py" project (link: https://sdk.up42.com/) -->
 <!-- .tx-container Original Green Gradient: hsla(160deg,47%,55%,1) -->
 <style>
-
     .md-main {
         flex-grow: 0
     }
@@ -321,12 +308,12 @@
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(224, 3%, 23%, 1) 99%,#fff 99%)
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-default-bg-color) 99%,var(--md-default-bg-color) 99%)
     }
 
     .tx-container-regular {
         padding-top: .0rem;
-        background-color: var(--md-primary-fg-color);
+        background-color: var(--md-default-bg-color);
     }
 
     .tx-hero {
@@ -347,7 +334,7 @@
     }
 
     .tx-hero__image{
-        width:40rem;
+        width: 100%;
         order:1;
         padding-right: 2.5rem;
     }
@@ -542,12 +529,7 @@
         fill: white;
     }
 
-    p {
-        font-size: 0.8rem;
-        font-weight: 300;
-        line-height: 1.5;
-        color: #fff;
-    }
+
 
     .md-typeset h4 {
         font-size: 1.2rem !important;
@@ -563,7 +545,7 @@
       
         <!-- Custom Image -->
         <div class="tx-hero__image">
-      <img src="assets/GSXHub_HD5I5Zg3N4.png" draggable="false">
+      <img src="assets/images/GSXHub_HD5I5Zg3N4.png" draggable="false">
         </div>
     
     <!-- Main Tagline -->
@@ -638,7 +620,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="." title="GSX Hub" class="md-nav__button md-logo" aria-label="GSX Hub" data-md-component="logo">
       
-  <img src="assets/Transparent.png" alt="logo">
+  <img src="assets/favicon.png" alt="logo">
 
     </a>
     GSX Hub
@@ -955,7 +937,6 @@
     <script id="__config" type="application/json">{"base": ".", "features": ["search.suggest", "header.autohide", "announce.dismiss", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "content.code.annotate"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
       <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
       
