@@ -18,7 +18,7 @@ home_button1_url: https://github.com/GSX-Hub/App/releases/latest  # This path st
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
 
 home_button2_name: Docs   # Comment this parameter out to remove the button.
-home_button2_url: docs/contribute/get-started/   # This path starts at your root mkdocs directory.
+home_button2_url: contribute/get-started/   # This path starts at your root mkdocs directory.
 home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
 
 theme:
@@ -57,7 +57,6 @@ plugins:
     cards_layout_options:
       font_family: Poppins
       logo: assets/favicon.png
-- awesome-nav
 - git-revision-date-localized:
     enabled: true
     enable_creation_date: true
@@ -87,6 +86,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
