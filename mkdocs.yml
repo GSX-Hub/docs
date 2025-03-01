@@ -105,3 +105,6 @@ nav:
     - Profile Maintainers:
       - First Time Maintainer: contribute/first-time-maintainer.md
       - Returning Maintainer: contribute/returning-maintainer.md
+  - Reference:
+    - Profile.json: reference/profile-json.md
+    - Information.md: reference/information-markdown.md

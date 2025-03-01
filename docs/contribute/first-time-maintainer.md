@@ -117,3 +117,62 @@ Or (Option 2) **Recommended**:
 ***
 
 #### Creating a branch
+
+=== ":one: GitHub Desktop"
+    1. Inside of GitHub Desktop, ensure that the 'Current repository' is `Profiles`, the 'Current branch' is `main` and select `New Branch`.
+    ![image](https://github.com/user-attachments/assets/47f7f79a-fc73-42bf-97db-430d2700184b)
+
+    2. Name your branch in accordance with the issue number: `issue-12`
+    <figure markdown="span">
+        ![image](https://sharex.hinshaw.cloud/screenshots/2025-02/GitHubDesktop_aWgILxVmlu.png)
+    </figure>
+    Now that you have created the branch, we can begin to make the necessary changes.
+
+    - [x] Created a branch
+
+=== ":two: Visual Studio Code"
+
+
+
+#### Making the changes
+Now that we have made the branch, you can make the changes required.
+Using the text editor of your choice, edit the files and return to this section once you are complete.
+##### Good Habits
+Below are some good habits to get into when editing, some are GitHub related.
+
+| Tip | Description |
+| --- | --- |
+| Commit Periodically | Ideally you should be committing your changes regularly. For example, if I was to modify a group of stands (Terminal A), before I move to Terminal B stands I will commit the changes made. It allows for natural breaks in development and, if you publish the branch, others can help support and view your progress. |
+
+
+#### Ready to Upload?
+Feel you've forgotten or messed something up? Don't worry - it will be checked before it goes live.
+
+=== ":one: GitHub Desktop"
+    1. Open GitHub Desktop and notice the list of changes on the left-hand side. You can go through them and check to see if it has detected all your changes. If anything is missing, double check you have saved the file.
+
+    2. Name your commit. Since this is your first commit of the profile, I highly recommend naming it `Initial Release`. You may add a description should you wish.
+
+    3. Once you have selected `Commit to...` you can then select `Publish Branch` at the top. This will push the branch to GitHub and allow your changes to be compared against the main code.
+
+=== ":two: Visual Studio Code"
+
+    To Complete
+
+##### Creating a Pull Request (PR)
+Now that the branch has been published to your GitHub Repo, it's time to make a Pull Request against the existing files.
+
+1. Navigate back to the repository's [main page](https://github.com/GSX-Hub/Profiles). You should see this notification:
+
+![ox6CYKctXY](https://github.com/user-attachments/assets/67eb64a1-7abe-4941-8a0a-1493dde4f3ba)
+
+2. Click `Compare & Pull Request`. Fill out the PR form like the example below:
+
+![fyRlWuymka](https://github.com/user-attachments/assets/7d745862-eba6-4cf9-bef5-5556bacd8967)
+
+!!! tip
+    You must follow the PR schema. `[ICAO] Developer | Fixes #[IssueNumber]`
+    !!! example
+        `[EGNX] Pyreegue | Fixes #12`
+
+When you are happy, submit the PR by clicking `Create Pull Request`.
