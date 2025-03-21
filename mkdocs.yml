@@ -23,6 +23,7 @@ home_button2_theme: md-button # Options: "md-button", "md-button md-button--prim
 
 theme:
   name: material
+  language: en
   custom_dir: material/overrides
   features:
   - search.suggest
@@ -54,6 +55,12 @@ extra_css:
 
 plugins:
 - search
+- blog:
+    post_url_date_format: yyyy/MM/dd
+    post_date_format: medium
+    post_url_format: "{date}/{slug}"
+    post_excerpt: required
+- meta
 - social:
     cards_layout_options:
       font_family: Poppins
@@ -61,6 +68,9 @@ plugins:
 - git-revision-date-localized:
     enabled: true
     enable_creation_date: true
+- git-committers:
+      repository: GSX-Hub/docs
+      branch: main
 
 extra:
   social:
@@ -109,3 +119,5 @@ nav:
   - Reference:
     - Profile.json: reference/profile-json.md
     - Information.md: reference/information-markdown.md
+  - Development:
+    - blog/index.md
