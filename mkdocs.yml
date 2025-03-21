@@ -26,7 +26,6 @@ theme:
   custom_dir: material/overrides
   features:
   - search.suggest
-  - header.autohide
   - announce.dismiss
   - navigation.tabs
   - navigation.tabs.sticky
@@ -48,8 +47,10 @@ theme:
   palette: 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue grey
-      accent: blue
+      primary: custom
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
 - search
