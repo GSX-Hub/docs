@@ -24,7 +24,7 @@ home_button2_theme: md-button # Options: "md-button", "md-button md-button--prim
 theme:
   name: material
   language: en
-  custom_dir: material/overrides
+  custom_dir: overrides
   features:
   - search.suggest
   - announce.dismiss
@@ -51,7 +51,7 @@ theme:
       primary: custom
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 plugins:
 - search
