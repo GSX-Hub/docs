@@ -78,6 +78,9 @@ extra:
       link: https://discord.gg/ubCkJQS6Mj
     - icon: fontawesome/brands/github
       link: https://github.com/GSX-Hub/App
+  analytics:
+    provider: google
+    property: G-JZ1ERDM9MD
 
 markdown_extensions:
   - admonition
