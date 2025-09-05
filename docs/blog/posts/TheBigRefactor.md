@@ -10,11 +10,11 @@ title: The Big Refactor
 
 # The Big Refactor
 
-So with the application gaining more traction and direction, I've been seriously considering the long-term viability of the current codebase. Currently, the app runs on .NET MAUI which is windows' cross-platform base for desktop applications. It's been pretty plain sailing since the outset, but recently I've craved some basic features that have taken me days to debug and have working - this doesn't bode well for future development...
+So, with the application gaining more traction and direction, I've been seriously considering the long-term viability of the current codebase. Currently, the app runs on .NET MAUI which is windows' cross-platform base for desktop applications. It's been pretty plain sailing since the outset, but recently I've craved some basic features that have taken me days to debug and have working - this doesn't bode well for future development...
 
 <!-- more -->
 
-For example, small asthetic properties such as the titlebar are seemingly impossible to remove without causing a white border to appear - trust me I've scowered StackOverflow and berated ChatGPT for solutions. Whilst it's certainly no deal breaker, I was disheartened by the difficulty of making such an easy change.
+For example, small aesthetic properties such as the title bar are seemingly impossible to remove without causing a white border to appear - trust me I've deep dived through StackOverflow and berated ChatGPT for solutions. Whilst it's certainly no deal breaker, I was disheartened by the difficulty of making such an easy change.
 
 Out of genuine curiosity, I started to explore alternative codebases. I had heard of Electron before putting the metaphorical shovel in the ground, but was put off at the prospect of JavaScript - it's by no means a language I'm familiar with so would likely cause more harm than good. But upon playing around with example projects and seeing just how easy it was to manipulate the application's window was a breath of fresh air. It wasn't just about the app window changes, but also seeing taskbar interactions which will be used for background profile updates started to convince me to give it a shot.
 
@@ -28,6 +28,10 @@ And after a few more days...
 
 <figure markdown="span">
   ![Second Electron Iteration](./TheBigRefactor/electron_GDnl6OlfXQ.png)
+</figure>
+
+<figure markdown="span">
+  ![Brand New Home Screen](./TheBigRefactor/electron_QJV8mAqGoz.png)
 </figure>
 
 ---
